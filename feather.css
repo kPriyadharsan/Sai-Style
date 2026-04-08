@@ -1,0 +1,22 @@
+#xo-feather-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0; /* Behind your content */
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.xo-feather {
+  position: absolute;
+  pointer-events: auto;
+   transition: transform 0.3s ease;
+  will-change: transform, opacity;
+  cursor: pointer;
+}
+
+.xo-feather:hover {
+  transform: scale(1.1);
+}
