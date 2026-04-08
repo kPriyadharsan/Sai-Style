@@ -1,5 +1,5 @@
 // Careers text animation
-const careers = ["Web Developer", "Freelancer", "Engineer", "Innovator", "MERN Stack Developer"];
+const careers = ["Priyadharsan", "Freelancer", "Engineer", "Innovator", "MERN Stack Developer"];
 const typedText = document.getElementById("typed-text");
 const articleSpan = document.getElementById("article");
 
